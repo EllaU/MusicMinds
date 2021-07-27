@@ -1,0 +1,177 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+}
+
+.page-header {
+  background: white;
+}
+
+
+.nav-link {
+  font-size: 15px;
+  color: #0d0920;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-left: 1rem;
+  visibility: visible;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-title {
+  line-height: 65px;
+  color: white;
+  font-family: "Kaushan Script";
+  font-weight: 1000;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+.bg-white {
+  background-color: white;
+}
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.play-button {
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7E2222;
+  border-radius: 50%;
+}
+.tiny-text {
+  font-size: 1rem;
+}
+.tiny-text2 {
+  font-size: 0.7rem;
+}
+p {
+  font-size: 13px;
+}
+
+.section-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+html,
+body,
+header,
+#inntro {
+    height: 80%;
+}
+
+#inntro {
+    background: url('img/home-bg.jpg')no-repeat center center ;
+    background-size: cover;
+    height: 100%;
+}
+/* ============ */
+html,
+body,
+header,
+#intro2{
+    height: 80%;
+}
+
+#intro2 {
+    background: url('img/intro2.png')no-repeat center center ;
+    background-size: contain;
+    height: 100%;
+}
+/* ============= */
+html,
+body,
+header,
+#intro3 {
+    height: 80%;
+}
+
+#intro3 {
+    background: url('img/intro3.jpg')no-repeat center center ;
+    background-size: cover;
+    height: 100%;
+}
+/* ============= */
+html,
+body,
+header,
+#intro4 {
+    height: 80%;
+}
+
+#intro4 {
+    background: url('img/intro4.jpg')no-repeat center center ;
+    background-size: cover;
+    height: 100%;
+}
+.btn{
+  background-color: #900101;
+}
+.backgroundImage{
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.box{
+  height: 20px;
+  width: 20px;
+  background-color: #F49227  ;
+  margin: auto;
+}
+.judgesHeight{
+  height: 5rem;
+  width: 5rem;
+  background-color:lightgray ;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(56,5,5,0.7);
+}
+.navbar-light{
+  background-color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #text4{
+    font-size: 15px;
+  }
+  #hide{
+    display: none;
+  }
+  .box{
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
